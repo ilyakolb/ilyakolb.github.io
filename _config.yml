@@ -83,11 +83,11 @@ author:
   name             : "Ilya Kolb, PhD"
   avatar           : "profile.png"
   bio              : "Biomedical engineer with an interest in high-throughput screening, biomedical automation, neural interfacing, open-source software. Platform-independent problem solver"
-  location         : "Sunnyvale, CA, USA"
-  employer         : "HHMI Janelia Research Campus"
+  location         : "San Francisco Bay Area, California"
+  employer         : "Arcadia Science"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=PMcAnZEAAAAJ&hl=en"
-  email            : "koljr2005 snail gmail dot com"
+  email            : "ilya.kolb.0 snail gmail dot com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "the_kolb"
+  twitter          : "i__kolb"
   vine             :
   weibo            :
   xing             :
