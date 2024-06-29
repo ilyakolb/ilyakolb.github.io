@@ -13,7 +13,7 @@ author_profile: false
 
 ## Demonstration
 
-*Two pipettes independently patch-clamp multiple HEK cells on a glass cover slip sequentially without human intervention. Green light indicates successful whole-cell recording.
+* Two pipettes independently patch-clamp multiple HEK cells on a glass cover slip sequentially without human intervention. Green light indicates successful whole-cell recording.
 
 <br />
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nqFYfrU-XBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
