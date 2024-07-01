@@ -6,7 +6,7 @@ permalink: /LabBee/
 author_profile: false
 ---
 
-### Control your microscope with a voice assistant!
+# Control your microscope with a voice assistant!
 
 ## About
 - General-purpose lab automation assistant powered by **Amazon Alexa**
