@@ -44,4 +44,4 @@ Currently, LabBee can be used to control microscopes by interfacing with the ope
 
 ## Contact
 
-Contact [Ilya Kolb](mailto:koljr2005@gmail.com)
+Contact [Ilya Kolb](mailto:ilya.kolb.0@gmail.com)
