@@ -3,7 +3,7 @@ title: "LabBee: General-purpose microscopy automation assistant"
 excerpt: "LabBee: General-purpose microscopy automation assistant"
 sitemap: false
 permalink: /LabBee/
-author_profile: false
+author_profile: true
 ---
 
 # Control your microscope with a voice assistant!

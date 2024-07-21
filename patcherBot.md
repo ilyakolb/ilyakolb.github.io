@@ -3,7 +3,7 @@ title: "patcherBot: walk-away automated patch-clamp robotics"
 excerpt: "patcherBot: walk-away automated patch-clamp robotics"
 sitemap: true
 permalink: /patcherBot/
-author_profile: false
+author_profile: true
 ---
 
 ## About

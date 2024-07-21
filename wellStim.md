@@ -3,7 +3,7 @@ title: "wellStim: current stimulator for 24-well plates"
 excerpt: "wellStim: current stimulator for 24-well plates"
 sitemap: true
 permalink: /wellStim/
-author_profile: false
+author_profile: true
 ---
 
 ## About
