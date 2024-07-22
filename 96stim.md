@@ -1,6 +1,6 @@
 ---
-title: "96-Well Electrical Stimulation Device"
-excerpt: "Low-cost Electrical Stimulation Platform"
+title: "Bolt-on Electrical Stimulation Drive"
+excerpt: "Bolt-on Electrical Stimulation Drive"
 sitemap: false
 permalink: /96stim/
 author_profile: true
