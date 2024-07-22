@@ -37,17 +37,17 @@ The cost to manufacture the drive itself is less than \\$500. The platinum elect
 
 | **Quantity** | **Item** | **Description** | **Link** | **Additional notes** |
 |--------------|----------|-----------------|----------|----------------------|
-| 1 | Linear actuator | Actuator for moving the electrode into the well | [PQ12-100-6-S](https://www.digikey.com/en/products/detail/actuonix-motion-devices-inc/PQ12-100-6-S/12317374) | |
+| 1 | Linear actuator | Actuator for moving the electrode into the well | [PQ12-100-6-S (Digikey)](https://www.digikey.com/en/products/detail/actuonix-motion-devices-inc/PQ12-100-6-S/12317374) | |
 | 2 | Limit switch | Sets upper and lower travel limits of the linear actuator | [PM-F25 (Digikey)](https://www.digikey.com/en/products/detail/panasonic-industrial-automation-sales/PM-F25/5962552) | The limit switches are mounted in a groove on the actuator mounting bracket. Their relative position can be adjusted to modify the travel range of the electrode
 | 1 | Carriage rail | Holds the electrode carriage | [8381K39 (McMaster)](https://www.mcmaster.com/8381K39)
 | 1 | Tension spring | Spring for keeping tension on the carriage, returning it back to upper travel limit | [5108N002 (McMaster)](https://www.mcmaster.com/5108N002) | One end of the spring is wound around a 
-| 1 | Limit switch contact | Tag on the electrode carriage that activates the limit switches | [1267, Digikey](https://www.digikey.com/en/products/detail/keystone-electronics/1267/303572) | The small tag opposite of the hole was cut off
-| 2 | Electrode wire (Platinum) | Platinum rod; diameter 1 mm, length 300 mm | [PT-M-02-R](https://www.americanelements.com/platinum-rod-7440-06-4) | Contact American Elements to get a quote
+| 1 | Limit switch contact | Tag on the electrode carriage that activates the limit switches | [1267 (Digikey)](https://www.digikey.com/en/products/detail/keystone-electronics/1267/303572) | The small tag opposite of the hole was cut off
+| 2 | Electrode wire (Platinum) | Platinum rod; diameter 1 mm, length 300 mm | [PT-M-02-R (American Elements)](https://www.americanelements.com/platinum-rod-7440-06-4) | Contact American Elements to get a quote
 | 3 | O-ring | For securing the electrodes to the outside of the housing | [9262K252 (McMaster)](https://www.mcmaster.com/9262K252)
-| 1 | Condenser mounting bracket | Connects to condenser mount to hold the rest of the assembly | [MS-KIT-Z-1 Newport](https://www.newport.com/p/MS-KIT-Z-1)
-| 1 | Vertical adjuster | Linear stage for setting the vertical position of the electrode (13 mm travel range) | [MS-500-X, Newport](https://www.newport.com/p/MS-500-X)
-| 1 | Vertical adjustment screw | Adjustment screw for the vertical adjuster | [Adjustment Screw, Tiny Knob, 28.7 mm Travel, Ball Tip, 6-80, Newport](https://www.newport.com/p/9347) | The vertical adjuster comes with an adjustment screw which can be used, but it is too short to be used conveniently; therefore, this is a replacement for that screw |
-| 1 | Spring mount post | Post on the actuator mounting bracket that holds one end of the tension spring | [H9004-01](https://www.digikey.com/en/products/detail/harwin-inc/H9004-01/2264432) | Press fit into the actuator mounting bracket
+| 1 | Condenser mounting bracket | Connects to condenser mount to hold the rest of the assembly | [MS-KIT-Z-1 (Newport)](https://www.newport.com/p/MS-KIT-Z-1)
+| 1 | Vertical adjuster | Linear stage for setting the vertical position of the electrode (13 mm travel range) | [MS-500-X (Newport)](https://www.newport.com/p/MS-500-X)
+| 1 | Vertical adjustment screw | Adjustment screw for the vertical adjuster | [Adjustment Screw, Tiny Knob, 28.7 mm Travel, Ball Tip, 6-80 (Newport)](https://www.newport.com/p/9347) | The vertical adjuster comes with an adjustment screw which can be used, but it is too short to be used conveniently; therefore, this is a replacement for that screw |
+| 1 | Spring mount post | Post on the actuator mounting bracket that holds one end of the tension spring | [H9004-01 (Digikey)](https://www.digikey.com/en/products/detail/harwin-inc/H9004-01/2264432) | Press fit into the actuator mounting bracket
 | 2 | 18-8 Stainless Steel Socket Head Screw, Thread Size: 2-56, Length: 3/16" |Connect mounting bracket to vertical adjuster | [92196A076 (McMaster)](https://www.mcmaster.com/92196A076) |                      |
 | 2 | 18-8 Stainless Steel Socket Head Screw, Thread Size: M4 x 0.7 mm, Length: 10 mm |Connect retention bracket to mounting bracket  | [91292A019 (McMaster)](https://www.mcmaster.com/91292A019) |                      |
 | 4 | 18-8 Stainless Steel Socket Head Screw, Thread Size: 0-80, Length: 3/8" |Connect vertical adjuster to condenser mounting bracket | [92196A057 (McMaster)](https://www.mcmaster.com/92196A057) |                      |
@@ -62,8 +62,8 @@ The cost to manufacture the drive itself is less than \\$500. The platinum elect
 ### 3D printed
 
 
-| **Quantity** | **Item** | **Description** | **Link** | **Additional notes** |
-|--------------|----------|-----------------|----------|----------------------|
+| **Quantity** | **Item** | **Description** | **Link** |
+|--------------|----------|-----------------|----------|
 | 1 | Condenser mount | Slides into the condenser slot on the microscope. **Note: this piece will need to be custom-made for different microscopes. It was tested with an Olympus IX-83.** | [STL](../projects/STL/condenser-mount-v12.stl) | 
 | 1 | Actuator mounting bracket | Holds the actuator, rail, and limit switches | [STL](../projects/96well/CAD/actuator-mounting-bracket-v39.stl) | 
 | 1 | Electrode carriage | Carriage that slides on the rail and holds the housing | [STL](../projects/96well/CAD/electrode-carriage-v20.stl) | 
@@ -78,12 +78,12 @@ The entire drive design is available for download as a [STEP file](../projects/9
 ![Drive assembly](../projects/96well/images/drive-assembly.png)
 ![Drive carriage zoomed in](../projects/96well/images/drive-zoomedin.png)
 
-
-
+<br/>
+<br/>
 
 # Interface board
 
-The interface board controls the linear actuator.
+The interface board is a PCB that controls the linear actuator and receives signals from buttons, external control logic, and limit switches.
 
 
 ## Electrical design
@@ -98,7 +98,7 @@ The general principle of operation of the circuit is as follows: when neither th
 
 The 2-layer PCB for the schematic shown above can be downloaded as a [Gerber zip file](../projects/96well/ECAD/interface-board-gerbers.zip) or as a [KiCAD PCB file](../projects/96well/ECAD/interface-board.kicad_pcb). I used [OSHPARK](https://oshpark.com) to manufacture the PCB. For a 2-layer 4.00 x 3.00 inch (101.6 x 76.2mm) board, it will cost ~$60. Other PCB manufacturers can also be used.
 
-The full bill of materials (BOM) is [here as an Excel file](../projects/96well/ECAD/MIB_BOM).
+The full bill of materials (BOM) is [here as an Excel file](../projects/96well/ECAD/MIB_BOM.xlsx).
 
 ## PCB enclosure
 
@@ -106,8 +106,8 @@ The PCB enclosure can be 3D printed as two separate pieces (enclosure body and l
 
 | **Quantity** | **Item** | **Description** | **Link** | **Additional notes** |
 |--------------|----------|-----------------|----------|----------------------|
-| 1 | Enclosure body | Main body of the PCB enclosure | [STL](../projects/96well/CAD/MIB-body.stl)
-| 1 | Enclosure lid | Lid for PCB enclosure | [STL](../projects/96well/CAD/MIB-lid.stl)
+| 1 | Enclosure body | Main body of the PCB enclosure | [STL](../projects/96well/CAD/MIB-body.stl) | Should be printed the way it is shown in the image (standing upright). Ensure that supports are enabled to properly reproduce the connector cutouts
+| 1 | Enclosure lid | Lid for PCB enclosure | [STL](../projects/96well/CAD/MIB-lid.stl) | Should be printed the way it is shown in the image (labels facing up) to ensure that the labels are properly printed
 
 
 ![Enclosure inputs and outputs](../projects/96well/images/MIB-box.png)
@@ -167,5 +167,5 @@ Ensure proper orientation of the switch in the lid cutout for label consistency.
  * Data acquisition software such as [ACQ4](http://www.acq4.org/) (Python-based, free), [Wavesurfer](https://wavesurfer.janelia.org/) (MATLAB-based), or [NI LabVIEW](https://www.ni.com/en/shop/labview.html) can be used to synchronize camera frames with the stimulation.
 
 # Known issues, planned improvements
-* Condenser mount is likely slightly too tight for the microscope
-* Cannot use condenser (i.e. transmitted-light imaging such as phase contrast) during operation. 
+* Cannot use condenser (i.e. transmitted-light imaging such as phase contrast) during operation
+
